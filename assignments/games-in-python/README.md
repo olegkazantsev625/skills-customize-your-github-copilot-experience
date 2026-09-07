@@ -1,19 +1,39 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Hangman Game
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Build a text-based Hangman game in Python. Practice string manipulation, loops, conditionals, lists, user input, and random selection while creating a game where players guess a hidden word before running out of attempts.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Build the Game Setup
 
-## ✅ Must Have's
+#### Description
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+Complete the setup for the game by selecting a secret word from the provided list and creating the variables needed to track the player's progress.
+
+#### Requirements
+
+Completed program should:
+
+- Randomly select one word from the predefined `words` list.
+- Store the player's guessed letters.
+- Track the number of incorrect guesses.
+- Set a maximum number of incorrect guesses allowed.
+
+### 🛠️ Implement the Guessing Game
+
+#### Description
+
+Complete the main game loop so the player can guess letters, see their progress, and receive a final result when the word is guessed or the attempts are exhausted.
+
+#### Requirements
+
+Completed program should:
+
+- Display the current progress using underscores for letters that have not been guessed, such as `_ _ _ _`.
+- Ask the player to enter a letter and update the game state after each guess.
+- Track incorrect guesses and stop the game when the maximum is reached.
+- End when the player guesses every letter in the secret word or runs out of attempts.
+- Display a clear win message or reveal the secret word in a lose message.
